@@ -10,10 +10,10 @@ import time, datetime
 analyzer = SentimentIntensityAnalyzer()
 
 #consumer key, consumer secret, access token, access secret.
-ckey="JvUsmX3UfzBDNuajlI052eMdy"
-csecret="9tVK36bNLwJ4x2e49ZrkhLW4Lb6Fdk7rE8jMviK6B0h2KOSdQt"
-atoken="789686945047773184-6TSTGgnx33sGIndbkxMgTfMYbl40L35"
-asecret="svOZ4DzhE0TlZaFw93pAnXiNlhZsKJ1YuYuzlOzz50a0k"
+ckey=""
+csecret=""
+atoken=""
+asecret=""
 
 conn = sqlite3.connect('twitter.db')
 c = conn.cursor()
